@@ -21,7 +21,9 @@
       </div>
     </section>
     <section class="bio">
-
+      <h2>
+        A full-stack developer, and now interested in the Data Visualization.
+      </h2>
     </section>
   </div>
 </template>
@@ -42,6 +44,7 @@
 
   #app {
     width: 100%;
+    background-color: #eee;
   }
 
   .title {
@@ -49,6 +52,7 @@
     overflow: hidden;
     background-image: -webkit-linear-gradient(45deg, #111 20%, #222 100%);
     font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans GB",Arial,sans-serif;
+    box-shadow: 0 1px 20px #000;
   }
 
   .name {
@@ -69,6 +73,23 @@
     font-size: 20px;
   }
 
+
+  .bio {
+    height: 95vh;
+    color: #262626;
+    position: relative;
+  }
+
+  .bio h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    width: 80%;
+    font-size: 66px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
 
 
   .hole {
