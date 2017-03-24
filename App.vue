@@ -1,7 +1,12 @@
 <template>
   <div id="app" class="app">
-    <section>
-      <h1>GeekPlux</h1>
+    <section class="title">
+      <div class="name">
+        <h1>GeekPlux</h1>
+        <p>
+          Developer
+        </p>
+      </div>
       <div class='hole'>
         <i></i>
         <i></i>
@@ -15,6 +20,9 @@
         <i></i>
       </div>
     </section>
+    <section class="bio">
+
+    </section>
   </div>
 </template>
 
@@ -25,7 +33,7 @@
 </script>
 
 <style>
-  html, body, #app {
+  html, body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -33,21 +41,34 @@
   }
 
   #app {
+    width: 100%;
+  }
+
+  .title {
+    height: 95vh;
     overflow: hidden;
-    background: #111;
+    background-image: -webkit-linear-gradient(45deg, #111 20%, #222 100%);
     font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans GB",Arial,sans-serif;
   }
 
-  h1 {
+  .name {
     position: absolute;
-    font-size: 48px;
-    font-weight: bold;
-    margin: 0;
-    color: #fff;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
   }
+
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .name p {
+    font-size: 20px;
+  }
+
 
 
   .hole {
@@ -60,10 +81,10 @@
   i {
     display: block;
     position: absolute;
-    width: 140px;
-    height: 140px;
-    left: -70px;
-    top: -70px;
+    width: 250px;
+    height: 250px;
+    left: -125px;
+    top: -125px;
     border-radius: 140px;
     opacity: 0;
     animation-name: scale;
