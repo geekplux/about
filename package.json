@@ -1,0 +1,11 @@
+{
+  "name": "about",
+  "version": "0.0.0",
+  "description": "About page",
+  "main": "index.js",
+  "author": "geekplux@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "vbuild": "^6.24.8"
+  }
+}
