@@ -28,10 +28,11 @@
         <li><a href="https://www.instagram.com/geekplux">Instagram</a></li>
         <li><a href="https://twitter.com/geekplux">Twitter</a></li>
         <li><a href="http://geekplux.com/about">About</a></li>
+        <li><a href="">Project (Coming soon)</a></li>
       </ul>
       <h2>Doing cool stuff on Web</h2>
       <p>
-        A full-stack developer, and now interested in Data Visualization.
+        I’m Xiang Gao, a freelance full-stack web developer and also a graduate student interested in Data Visualization. I try to always find new ways to create some novel or cool things through programming, and I hope you'll love some of my works/experiments.
       </p>
     </section>
   </div>
@@ -100,6 +101,13 @@
     line-height: 1.2;
     word-break: break-word;
   }
+  .bio p {
+    font-size: 24px;
+    font-family: 'Noto Sans S Chinese', sans-serif;
+    font-weight: 300;
+  }
+
+
 
   ul {
     padding: 5vh 0 0 0;
