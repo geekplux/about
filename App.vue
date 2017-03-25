@@ -19,6 +19,7 @@
         <i></i>
         <i></i>
       </div>
+      <svg viewBox="0 0 34 19" xmlns="http://www.w3.org/2000/svg" style="opacity:1;" class="scroll" data-reactid="19"><path d="M33 1L17 17 1 1" stroke-width="2" stroke="#FFF" fill="none" fill-rule="evenodd" opacity=".3" data-reactid="20"></path></svg>
     </section>
     <section class="bio">
       <ul class="links">
@@ -58,7 +59,7 @@
   }
 
   .title {
-    height: 95vh;
+    height: 100vh;
     overflow: hidden;
     background-image: -webkit-linear-gradient(45deg, #111 20%, #222 100%);
     font-family: "Open Sans", -apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans GB",Arial,sans-serif;
@@ -86,6 +87,15 @@
     animation: 2s 1s fadeInUp forwards;
   }
 
+  .scroll {
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    bottom: 5vh;
+    left: calc(50% - 15px);
+    animation: 1.5s fadeInDown infinite;
+  }
+
 
   .bio {
     height: 95vh;
@@ -106,7 +116,6 @@
     font-family: 'Noto Sans S Chinese', sans-serif;
     font-weight: 300;
   }
-
 
 
   ul {
