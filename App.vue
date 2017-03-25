@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="app">
     <section class="title">
-      <div class="name">
-        <h1>GeekPlux</h1>
-        <p>
+      <div class="intro">
+        <h1 class="name">GeekPlux</h1>
+        <p class="profession">
           Developer
         </p>
       </div>
@@ -22,7 +22,7 @@
     </section>
     <section class="bio">
       <h2>
-        A full-stack developer, and now interested in the Data Visualization.
+        A full-stack developer, and now interested in Data <span>Visualization</span>.
       </h2>
     </section>
   </div>
@@ -48,14 +48,14 @@
   }
 
   .title {
-    height: 95vh;
+    height: 100vh;
     overflow: hidden;
     background-image: -webkit-linear-gradient(45deg, #111 20%, #222 100%);
-    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans GB",Arial,sans-serif;
+    font-family: "Open Sans", -apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans GB",Arial,sans-serif;
     box-shadow: 0 1px 20px #000;
   }
 
-  .name {
+  .intro {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -68,9 +68,12 @@
     font-size: 48px;
     font-weight: bold;
     margin: 0;
+    animation: 2s fadeInDown;
   }
-  .name p {
+  .intro p {
+    opacity: 0;
     font-size: 20px;
+    animation: 2s 1s fadeInUp forwards;
   }
 
 
@@ -86,9 +89,14 @@
     top: 50%;
     transform: translate(-50%, -60%);
     width: 80%;
-    font-size: 66px;
+    font-size: 64px;
     font-weight: bold;
     line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .bio h2 span {
+    color: #a212d1;
   }
 
 
@@ -171,4 +179,33 @@
       box-shadow: 0px 10px 20px rgba(255, 255, 255, 0);
     }
   }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
 </style>
