@@ -21,9 +21,18 @@
       </div>
     </section>
     <section class="bio">
-      <h2>
-        A full-stack developer, and now interested in Data <span>Visualization</span>.
-      </h2>
+      <ul class="links">
+        <li><a href="http://geekplux.com/archives">Blog</a></li>
+        <li><a href="http://geekplux.com/wiki">Wiki</a></li>
+        <li><a href="https://github.com/geekplux">GitHub</a></li>
+        <li><a href="https://www.instagram.com/geekplux">Instagram</a></li>
+        <li><a href="https://twitter.com/geekplux">Twitter</a></li>
+        <li><a href="http://geekplux.com/about">About</a></li>
+      </ul>
+      <h2>Doing cool stuff on Web</h2>
+      <p>
+        A full-stack developer, and now interested in Data Visualization.
+      </p>
     </section>
   </div>
 </template>
@@ -48,7 +57,7 @@
   }
 
   .title {
-    height: 100vh;
+    height: 95vh;
     overflow: hidden;
     background-image: -webkit-linear-gradient(45deg, #111 20%, #222 100%);
     font-family: "Open Sans", -apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans GB",Arial,sans-serif;
@@ -81,23 +90,41 @@
     height: 95vh;
     color: #262626;
     position: relative;
+    padding: 0 10%;
   }
 
   .bio h2 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -60%);
-    width: 80%;
+    margin-top: 40vh;
     font-size: 64px;
     font-weight: bold;
     line-height: 1.2;
     word-break: break-word;
   }
 
-  .bio h2 span {
-    color: #a212d1;
+  ul {
+    padding: 5vh 0 0 0;
   }
+  li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  li:first-child {
+    margin-left: 0;
+  }
+  li a {
+    color: #939393;
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: none;
+    transition: .5s;
+  }
+  li:hover a {
+    color: #262626;
+    font-size: 21px;
+  }
+
+
 
 
   .hole {
