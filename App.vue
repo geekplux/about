@@ -33,7 +33,7 @@
       </ul>
       <h2>Doing cool stuff on Web</h2>
       <p>
-        I’m Xiang Gao, a freelance full-stack web developer and also a graduate student interested in Data Visualization. I try to always find new ways to create some novel or cool things through programming, and I hope you'll love some of my works/experiments.
+        I’m Xiang Gao, a freelance <strong>full-stack</strong> web developer and also a graduate student interested in <strong>Data Visualization</strong>. I try to always find new ways to create some novel or cool things through programming, and I hope you'll love some of my works/experiments.
       </p>
     </section>
   </div>
