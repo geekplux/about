@@ -28,8 +28,7 @@
         <li><a href="https://github.com/geekplux">GitHub</a></li>
         <li><a href="https://www.instagram.com/geekplux">Instagram</a></li>
         <li><a href="https://twitter.com/geekplux">Twitter</a></li>
-        <li><a href="http://geekplux.com/about">About</a></li>
-        <li><a href="">Project (Coming soon)</a></li>
+        <li><a href="">Project</a></li>
       </ul>
       <h2>Doing cool stuff on Web</h2>
       <p>
@@ -124,10 +123,7 @@
   li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
-  }
-  li:first-child {
-    margin-left: 0;
+    margin: 0 40px 0 0;
   }
   li a {
     color: #939393;
@@ -249,6 +245,30 @@
       opacity: 1;
       -webkit-transform: none;
       transform: none;
+    }
+  }
+
+
+  @media (max-width: 1000px) {
+    ul li a {
+      font-size: 16px;
+    }
+    .bio p {
+      font-size: 20px;
+    }
+    .bio h2 {
+      font-size: 56px;
+    }
+  }
+  @media (max-width: 768px) {
+    ul li a {
+      font-size: 14px;
+    }
+    .bio p {
+      font-size: 16px;
+    }
+    .bio h2 {
+      font-size: 48px;
     }
   }
 
