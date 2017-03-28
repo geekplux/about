@@ -271,5 +271,23 @@
       font-size: 48px;
     }
   }
-
+  @media (max-width: 500px) {
+    i {
+      width: 200px;
+      height: 200px;
+      left: -100px;
+      top: -100px;
+    }
+  }
+  @media (max-width: 400px) {
+    i {
+      width: 150px;
+      height: 150px;
+      left: -75px;
+      top: -75px;
+    }
+    .bio h2 {
+      font-size: 48px;
+    }
+  }
 </style>
