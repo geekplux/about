@@ -12,6 +12,7 @@
   "author": "geekplux@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "vbuild": "^6.24.8"
+    "vbuild": "^6.24.8",
+    "gh-pages": "^0.12.0"
   }
 }
