@@ -75,14 +75,16 @@
   }
 
   h1 {
-    font-size: 48px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 64px;
     font-weight: bold;
     margin: 0;
     animation: 2s fadeInDown;
   }
   .intro p {
     opacity: 0;
-    font-size: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
     animation: 2s 1s fadeInUp forwards;
   }
 
@@ -105,14 +107,14 @@
 
   .bio h2 {
     margin-top: 40vh;
-    font-size: 64px;
+    font-size: 7vw;
     font-weight: bold;
     line-height: 1.2;
     word-break: break-word;
   }
   .bio p {
     font-size: 24px;
-    font-family: 'Noto Sans S Chinese', sans-serif;
+    font-family: sans-serif;
     font-weight: 300;
   }
 
@@ -256,9 +258,6 @@
     .bio p {
       font-size: 20px;
     }
-    .bio h2 {
-      font-size: 56px;
-    }
   }
   @media (max-width: 768px) {
     ul li a {
@@ -266,9 +265,6 @@
     }
     .bio p {
       font-size: 16px;
-    }
-    .bio h2 {
-      font-size: 48px;
     }
   }
   @media (max-width: 500px) {
@@ -285,9 +281,6 @@
       height: 150px;
       left: -75px;
       top: -75px;
-    }
-    .bio h2 {
-      font-size: 48px;
     }
   }
 </style>
