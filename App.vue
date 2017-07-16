@@ -28,7 +28,8 @@
         <li><a href="https://github.com/geekplux">GitHub</a></li>
         <li><a href="https://www.instagram.com/geekplux">Instagram</a></li>
         <li><a href="https://twitter.com/geekplux">Twitter</a></li>
-        <li><a href="">Project</a></li>
+        <li><a href="https://project.geekplux.com">Project</a></li>
+        <li><a href="https://donate.geekplux.com">Donate</a></li>
       </ul>
       <h2>Doing cool stuff on Web</h2>
       <p>
@@ -83,7 +84,7 @@
   }
   .intro p {
     opacity: 0;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     animation: 2s 1s fadeInUp forwards;
   }
