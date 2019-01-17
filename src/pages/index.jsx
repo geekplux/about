@@ -67,7 +67,7 @@ const Index = () => (
         </BigTitle>
         <Subtitle>
           Web developer, open-source contributor and lifelong learner interested
-          in too much things.
+          in too many things.
         </Subtitle>
       </Hero>
       <Projects>
