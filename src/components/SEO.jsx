@@ -8,7 +8,6 @@ const SEO = () => {
   const realPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
   const image = config.siteUrl + realPrefix + config.siteLogo;
   const blogURL = config.siteUrl + config.pathPrefix;
-  const GA = config.GA;
   const schemaOrgJSONLD = [
     {
       '@context': 'http://schema.org',
@@ -72,12 +71,6 @@ const SEO = () => {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA}`} />
-      <script>
-        window.dataLayer = window.dataLayer || []; function gtag()
-        {dataLayer.push(arguments)}
-        gtag('js', new Date()); gtag('config', {GA});
-      </script>
     </Helmet>
   );
 };

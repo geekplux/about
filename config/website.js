@@ -19,6 +19,4 @@ module.exports = {
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
   backgroundColor: tailwind.colors.blue,
-
-  GA: 'UA-46481966-2'
 };

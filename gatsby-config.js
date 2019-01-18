@@ -45,6 +45,13 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-TTM8PQT",
+        includeInDevelopment: false,
+      },
+    },
     /* Must be placed at the end */
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
