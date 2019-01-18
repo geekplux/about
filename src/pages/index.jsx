@@ -92,7 +92,7 @@ const Index = () => (
             link="https://github.com/geekplux/d3-experiment"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            Some experiment, test and evaluation for using d3
           </ProjectCard>
           <ProjectCard
             title="More"
